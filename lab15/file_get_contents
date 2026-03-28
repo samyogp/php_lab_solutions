@@ -1,0 +1,9 @@
+<?php
+$content = file_get_contents("note.txt");
+
+if (empty($content)) {
+    echo "File is empty";
+} else {
+    echo $content;
+}
+?>
